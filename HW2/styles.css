@@ -7,7 +7,6 @@ h1 {
 }
 img {
     margin-left: 40px;
-    align-items: center;
 }
 ul {
     margin-left: 50px;
@@ -48,4 +47,3 @@ a:link {
   a:visited:hover {
     color: orange;
   }
-  
