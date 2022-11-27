@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: small;
+  box-sizing: border-box;
+  font-size: medium;
+  /*
+    box-sizing: content-box;*/
+}
+img {
+  width: 100%;
+  display: flex;
+
+}
+.menu-container {
+    padding: 20px 0;
+    width: 100%;
+    color: #fff;
+    background-color: #40b93a;
+    display: flex;
+    justify-content: center;
+  }
+  
+.menu {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(39, 105, 13);
+}
+.link {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.top-image
+{
+  position: relative;
+  object-fit: scale-down;
+  display: grid;
+  align-items: center;
+  place-items: center; /*позициониррует эл-ты по по центру бокса*/
+
+}
+
+h1 {
+  color:aliceblue;
+  font-size:9vmax;
+  position: absolute;
+  text-align: center; /*выравнивание внутри самомого текста*/
+}
+
+.box-container {
+  justify-content:space-around;
+  display: flex; /*контейнеры в ряд*/
+  margin: 40px;
+}
+.image-box {
+  width: 20%;
+  word-break: break-word;
+  background:  aliceblue;
+  border: 3px solid rgb(39, 105, 13);
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.image-box-2 {
+  background:  aliceblue;
+  border: 3px solid rgb(39, 105, 13);
+  border-radius: 10px;
+  display:  flex;
+}
+.box {
+  margin: 40px;
+  word-break: break-word;
+  background:  aliceblue;
+  border: 3px solid rgb(39, 105, 13);
+  border-radius: 10px;
+  display: grid;
+  padding: 10px;
+}
+p{
+  text-align: left;
+  padding-bottom: 10px;
+}
+footer{
+  margin-top: 0;
+  padding: 15px;
+  color: aliceblue;
+  display: flex;
+  background-color: #40b93a;
+  justify-content: space-between;
+}
+h2{
+  text-align: left;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+
